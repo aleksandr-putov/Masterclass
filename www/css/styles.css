@@ -1,0 +1,73 @@
+﻿body {
+	min-height: 100%;
+	background-color: white;
+}
+
+
+.menu {
+	padding-top: 10px;
+	background-color: white;
+	font-size: 26px;
+}
+input[type="number"] {
+   width:40px;
+}
+.header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #337AB7;
+	color: white;
+
+}
+
+.nav{
+	text-align:center;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+	
+display: inline;
+margin: 0;
+}
+ .nav> li
+ {
+ 	display: inline;
+ }
+a.menu:after, .dropdown-toggle:after {
+display:inline-block;
+content: none;
+}
+
+.nav > li > a {
+	display:inline-block;
+}
+
+.content {
+	background-color: white;
+	min-height: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer {
+	background-color: white;
+}
+
+.layer {
+    overflow: auto; /* Добавляем полосы прокрутки */
+    position: relative;
+   } 
+   
+   .up
+   {
+       background-color: lightgreen;
+   }
+   
+   .down
+   {
+       background-color: lightcoral;
+   }
+   
+   .old
+   {
+       color: grey;
+   }

@@ -1,0 +1,97 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPWebProject1</Name>
+    <ProjectGuid>{1ddec94b-37cf-4599-ab29-5c4ad6e3ca18}</ProjectGuid>
+    <RootNamespace>PHPWebProject1</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\controller\controller.php" />
+    <Compile Include="app\controller\controller_admin.php" />
+    <Compile Include="app\controller\controller_banana.php" />
+    <Compile Include="app\controller\controller_catalog.php" />
+    <Compile Include="app\controller\controller_category.php" />
+    <Compile Include="app\controller\controller_debug.php" />
+    <Compile Include="app\controller\controller_default.php" />
+    <Compile Include="app\controller\controller_group.php" />
+    <Compile Include="app\controller\controller_index.php" />
+    <Compile Include="app\controller\controller_menu.php" />
+    <Compile Include="app\controller\controller_order.php" />
+    <Compile Include="app\controller\controller_user.php" />
+    <Compile Include="app\model\model_catalog.php" />
+    <Compile Include="app\model\model_category.php" />
+    <Compile Include="app\model\model_db.php" />
+    <Compile Include="app\model\model_group - Copy.php" />
+    <Compile Include="app\model\model_group.php" />
+    <Compile Include="app\model\model_task.php" />
+    <Compile Include="app\model\model_user - Copy.php" />
+    <Compile Include="app\model\model_user.php" />
+    <Compile Include="app\view\view_about.php" />
+    <Compile Include="app\view\view_admin.php" />
+    <Compile Include="app\view\view_admin_group.php" />
+    <Compile Include="app\view\view_catalog.php" />
+    <Compile Include="app\view\view_category.php" />
+    <Compile Include="app\view\view_create_group.php" />
+    <Compile Include="app\view\view_create_user.php" />
+    <Compile Include="app\view\view_default.php" />
+    <Compile Include="app\view\view_groups.php" />
+    <Compile Include="app\view\view_group_header.php" />
+    <Compile Include="app\view\view_index.php" />
+    <Compile Include="app\view\view_item.php" />
+    <Compile Include="app\view\view_main.php" />
+    <Compile Include="app\view\view_profile.php" />
+    <Compile Include="app\view\view_profile_change.php" />
+    <Compile Include="app\view\view_restricted.php" />
+    <Compile Include="app\view\view_user_authorization.php" />
+    <Compile Include="app\view\view_user_contact.php" />
+    <Compile Include="app\view\view_user_enter.php" />
+    <Compile Include="app\view\view_user_registration.php" />
+    <Compile Include="css\.DS_Store" />
+    <Compile Include="css\bootstrap-responsive.css" />
+    <Compile Include="css\bootstrap-theme.min.css" />
+    <Compile Include="css\bootstrap.css" />
+    <Compile Include="css\bootstrap.min.css" />
+    <Compile Include="css\styles.css" />
+    <Compile Include="fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="img\article.jpg" />
+    <Compile Include="img\default.jpg" />
+    <Compile Include="img\imag2.jpg" />
+    <Compile Include="img\image.jpg" />
+    <Compile Include="js\.DS_Store" />
+    <Compile Include="js\bootstrap.js" />
+    <Compile Include="js\bootstrap.min.js" />
+    <Compile Include="js\jquery.js" />
+    <Compile Include="js\jquery.min.js" />
+    <Compile Include="js\password.js" />
+    <Compile Include="js\README.md" />
+    <Compile Include="js\scripts.js" />
+    <Compile Include="js\translite.js" />
+    <Compile Include="logs\log.txt" />
+    <Compile Include=".htaccess" />
+    <Compile Include="index.php" />
+    <Compile Include="route.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\controller" />
+    <Folder Include="app\model" />
+    <Folder Include="app\view" />
+    <Folder Include="app" />
+    <Folder Include="css" />
+    <Folder Include="fonts" />
+    <Folder Include="img" />
+    <Folder Include="js" />
+    <Folder Include="logs" />
+  </ItemGroup>
+</Project>
